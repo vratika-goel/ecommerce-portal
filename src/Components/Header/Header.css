@@ -1,5 +1,57 @@
 .ecom-header {
-    background-color: white;
-    width: 90%;
-    margin: 1rem auto;
+    width: 100%;
+    margin: 1.5rem;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+}
+
+.ecom-header-wrapper {
+    display: flex;
+}
+
+.ecom-header-branding-image, .ecom-header-content {
+    margin: 1rem;
+    padding-left: 0rem !important;
+}
+
+.ecom-header-content {
+    margin-left: 0;
+}
+
+.ecom-header-content-upper{
+    text-align: center;
+}
+
+.ecom-header-content-lower{
+    text-align: center;
+}
+
+.ecom-header-content-upper-search-cart {
+    float: right;
+}
+
+.ecom-header-content-upper-search {
+    margin-right: 0.5rem;
+}
+
+.ecom-header-content-upper-cart {
+    margin-left: 0.5rem;
+}
+
+.ecom-header-content-lower-categories {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    color: #b77b7b;
+}
+
+.ecom-header-seperator {
+    margin: 0 3px;
+}
+
+.ecom-header-category:last-child .ecom-header-seperator {
+    display: none;
+}
+
+LocationOnIcon, SearchIcon, ShoppingCartIcon {
+    margin: 0px 5px;
 }
