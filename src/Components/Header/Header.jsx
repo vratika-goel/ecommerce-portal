@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className="container-fluid ecom-header">
+        <div className="ecom-header">
             My Header
         </div>
     );
