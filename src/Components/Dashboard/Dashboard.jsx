@@ -5,9 +5,9 @@ import Header from '../Header/Header';
 
 const Dashboard = () => {
     return (
-        <div className="container">
+        <div className="container ecom-wrapper">
             <div className="row header-wrapper">
-                Header   
+                <Header />
             </div>
             <div className="row body-wrapper">
                 Page
