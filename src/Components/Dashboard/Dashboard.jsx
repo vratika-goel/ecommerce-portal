@@ -1,13 +1,16 @@
 import React from 'react';
+import './Dashboard.css';
+
+import Header from '../Header/Header';
 
 const Dashboard = () => {
     return (
         <div className="container">
             <div className="row header-wrapper">
-                Akash   
+                Header   
             </div>
             <div className="row body-wrapper">
-                Mishra
+                Page
             </div>
         </div>
     );
