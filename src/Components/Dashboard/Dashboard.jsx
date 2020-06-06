@@ -2,6 +2,7 @@ import React from 'react';
 import './Dashboard.css';
 
 import Header from '../Header/Header';
+import Products from '../Products/Products';
 
 const Dashboard = () => {
     return (
@@ -10,7 +11,7 @@ const Dashboard = () => {
                 <Header />
             </div>
             <div className="row body-wrapper">
-                Page
+                <Products />
             </div>
         </div>
     );
